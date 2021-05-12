@@ -15,6 +15,9 @@ int main() {
     case '+':
         res = math_add(val1, val2);
         break;
+    case '-':
+	res = math_sub(val1, val2);
+	break;
     }
 
     printf("%g%c%g=%g\n", val1, action, val2, res);
